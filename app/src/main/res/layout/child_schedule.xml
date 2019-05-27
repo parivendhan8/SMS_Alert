@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="@drawable/list_gradiant"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".95"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:visibility="gone"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/sms"
+            />
+
+
+        <TextView
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:id="@+id/ed_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".6"
+            android:text="Subject"
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/ed_Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".4"
+            android:text="Date"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight=".05"
+        android:background="@drawable/delete" />
+
+</LinearLayout>

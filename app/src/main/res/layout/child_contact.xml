@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/list_gradiant"
+    android:layout_margin="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_weight=".7"
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Name"
+        android:padding="8dp"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight=".05"
+        android:background="@drawable/delete"
+        android:gravity="center" />
+
+
+
+
+</LinearLayout>
